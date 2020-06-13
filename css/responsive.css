@@ -13,6 +13,13 @@
         min-height: 220px;
         height: auto;
     }
+    .about p {
+        padding-top: 10px;
+    }
+    .resume-btn-div {
+        text-align: center;
+        padding: 35px 0;
+    }
 }
 
 @media only screen and (max-width: 640px) {
