@@ -1,6 +1,8 @@
+'use strict';
+
 function navClick() {
-    burger = document.getElementById('burger');
-    navPanel = document.getElementById('navbtn-panel');
+    const burger = document.getElementById('burger');
+    const navPanel = document.getElementById('navbtn-panel');
 
     if (navPanel.style.display != '') {
         navPanel.style.display = ""
@@ -10,7 +12,7 @@ function navClick() {
     }
 }
 
-var myNav = document.getElementById("nav");
+const myNav = document.getElementById("nav");
 
 window.onscroll = function () {
     if (document.documentElement.scrollTop > (document.getElementById('particles-js').clientHeight / 2) - (document.getElementById('full-name-header').clientHeight / 2) - document.getElementById('nav').clientHeight || document.body.scrollTop > (document.getElementById('particles-js').clientHeight / 2) - (document.getElementById('full-name-header').clientHeight / 2) - document.getElementById('nav').clientHeight) {
