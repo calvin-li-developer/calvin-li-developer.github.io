@@ -53,6 +53,9 @@
         text-align: center;
         align-content: center;
     }
+    .navbtn-panel ul li {
+        font-size: 85%;
+    }
     .burger {
         cursor: pointer;
         display: block;
