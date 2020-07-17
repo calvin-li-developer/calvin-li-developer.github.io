@@ -2,12 +2,12 @@
 function navClick() {
     'use strict';
     const navPanel = document.getElementById('navbtn-panel');
-
-    if (navPanel.style.display !== '') {
-        navPanel.style.display = "";
+    console.log(navPanel.style.visibility)
+    if (navPanel.style.visibility !== '') {
+        navPanel.style.visibility = "";
 
     } else {
-        navPanel.style.display = "block";
+        navPanel.style.visibility = "visible";
     }
 }
 

@@ -86,6 +86,10 @@ nav {
     color: rgb(153, 151, 216);
 }
 
+.navbtn-panel {
+    visibility: visible;
+}
+
 .navbtn-panel ul {
     display: flex;
     list-style: none;

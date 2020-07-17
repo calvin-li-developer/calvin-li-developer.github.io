@@ -34,12 +34,11 @@
         position: absolute;
         width: 100%;
         height: auto;
-        /* background-color: rgb(33, 33, 33); */
         background-color: rgb(66, 66, 66);
         left: 0px;
         top: 100%;
         align-items: center;
-        display: none;
+        visibility: hidden;
     }
     .navbtn-panel ul {
         padding: 0;
