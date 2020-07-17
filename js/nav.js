@@ -1,23 +1,23 @@
 
 function navClick() {
     'use strict';
-    const navPanel = document.getElementById('navbtn-panel');
-    console.log(navPanel.style.visibility)
-    if (navPanel.style.visibility !== '') {
-        navPanel.style.visibility = "";
+    const NAV_MENU = document.getElementById('navbtn-panel');
+    console.log(NAV_MENU.style.visibility)
+    if (NAV_MENU.style.visibility !== '') {
+        NAV_MENU.style.visibility = "";
 
     } else {
-        navPanel.style.visibility = "visible";
+        NAV_MENU.style.visibility = "visible";
     }
 }
 
 window.onscroll = function () {
     'use strict';
-    const myNav = document.getElementById("nav");
+    const NAV_BAR = document.getElementById("nav");
 
     if (document.documentElement.scrollTop > (document.getElementById('particles-js').clientHeight / 2) - (document.getElementById('full-name-header').clientHeight / 2) - document.getElementById('nav').clientHeight || document.body.scrollTop > (document.getElementById('particles-js').clientHeight / 2) - (document.getElementById('full-name-header').clientHeight / 2) - document.getElementById('nav').clientHeight) {
-        myNav.classList.add("nav-background");
+        NAV_BAR.classList.add("nav-background");
     } else {
-        myNav.classList.remove("nav-background");
+        NAV_BAR.classList.remove("nav-background");
     }
 };
