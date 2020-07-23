@@ -1,0 +1,112 @@
+
+@media only screen and (max-width: 1251px) {
+    html {
+        font-size: 90%;
+    }
+    .about-content {
+        flex-direction: column;
+        width: 70%;
+        margin: 0 15%;
+    }
+    .about-content img {
+        padding-bottom: 5%;
+    }
+    .about-content p{
+        margin-left: 0;
+    }
+    .about-content,.project-odd, .project-even{
+        width: 70%;
+        margin: 0 15%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    html {
+        font-size: 85%;
+    }
+    .project-odd img, .project-even img {
+        display: none;
+    }
+    .project-odd .project-desc, .project-even .project-desc{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 801px) {
+    html {
+        font-size: 80%;
+    }
+    .menu-burger {
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+    }
+    .logo-out{
+        padding: 0;
+        margin: 4px 0 0 0;
+        display:block;
+    }
+    .logo-out img{
+        padding: 0;
+        margin: 0;
+    }
+    .logo-in{
+        display:none;
+    }
+    nav{
+        background-color: #d4d4d4;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+    .nav-menu {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        background-color: #aaaaaa;
+        width: 100vw;
+        height: max-content;
+        left: 0px;
+        top: 102%;
+        align-items: center;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        padding: 1% 0;
+    }
+    .nav-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-menu ul li a:hover {
+        border-bottom: none;
+    }
+    .social-icons i {
+        font-size: 230%;
+    }
+
+}
+
+@media only screen and (max-width: 401px) {
+    html {
+        font-size: 65%;
+    }
+    .about-content,.project-odd, .project-even{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .section-title span:first-child {
+        width: 30vw;
+        height: 0;
+        margin-left: 2vw;
+        border-bottom: 1px solid black;
+    }
+    
+    .section-title span:last-child {
+        width: 30vw;
+        height: 0;
+        margin-right: 2vw;
+        border-bottom: 1px solid black;
+    }
+    footer{
+        margin-top: 3%;
+    }
+}
+
