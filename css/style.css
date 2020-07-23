@@ -29,7 +29,11 @@ body {
 }
 
 canvas {
-    background-color: var(--background-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4)), url("../img/background.png");
+    z-index: -1;
 }
 
 nav {
@@ -128,10 +132,10 @@ section {
     place-items: center;
     width: 100%;
     height: 100vh;
-    z-index: 0;
+    z-index: 1;
 }
 
-.home-center-title h1 {
+.home-center-title .welcome {
     font-size: 220%;
     margin: 0;
     padding: 0;

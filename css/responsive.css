@@ -68,7 +68,8 @@
         align-items: center;
         overflow: hidden;
         transition: max-height 0.2s ease-out;
-        padding: 1% 0;
+        padding: 8px 0;
+        border-bottom: 0.5px solid black;
     }
     .nav-menu ul {
         display: flex;
@@ -98,7 +99,7 @@
         margin-left: 2vw;
         border-bottom: 1px solid black;
     }
-    
+
     .section-title span:last-child {
         width: 30vw;
         height: 0;
