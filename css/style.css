@@ -222,13 +222,14 @@ section {
 
 .about-content img {
     height: auto;
-    width: 40vh;
+    width: 45vh;
     min-width: 35vh;
+    border-radius: 100%;
 }
 
 .about-content p {
     margin-top: 0;
-    margin-left: 5%;
+    margin-left: 4vw;
     font-size: 20px;
     line-height: 2;
 }

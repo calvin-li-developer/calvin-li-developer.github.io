@@ -8,7 +8,8 @@
         margin: 0 15%;
     }
     .about-content img {
-        padding-bottom: 5%;
+        padding: 2vw;
+        max-width: 10vw;
     }
     .about-content p {
         margin-left: 0;
