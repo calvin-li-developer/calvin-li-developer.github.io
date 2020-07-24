@@ -242,10 +242,13 @@ section {
     align-items: center;
     text-align: center;
     font-size: 400%;
+    color:var(--hover-color)
+
 }
 .skill-3:nth-child(2){
     margin: 0 50px;
 }
+
 .project-odd {
     display: flex;
     width: 60%;
