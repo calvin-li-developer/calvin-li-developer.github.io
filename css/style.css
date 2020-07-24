@@ -53,7 +53,7 @@ nav {
 }
 
 section {
-    padding-bottom: 3%;
+    padding-bottom: 25px;
 }
 
 .logo-out {
@@ -207,7 +207,9 @@ section {
     margin-right: 2vw;
     border-bottom: 1px solid black;
 }
-
+.even-section{
+    background-color: var(--background-color);
+}
 .about-content {
     display: flex;
     justify-content: center;
@@ -229,10 +231,21 @@ section {
     line-height: 2;
 }
 
-.projects {
-    background-color: var(--background-color);
+.skills-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 20%;
 }
-
+.skill-3{
+    align-items: center;
+    text-align: center;
+    font-size: 400%;
+}
+.skill-3:nth-child(2){
+    margin: 0 50px;
+}
 .project-odd {
     display: flex;
     width: 60%;
@@ -265,7 +278,7 @@ section {
 }
 
 .project-btn {
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #414141;
     background-color: var(--background-color);
@@ -311,12 +324,14 @@ section {
 }
 
 footer {
-    margin: 1% 0;
+    padding: 8px 0;
 }
 
 footer .copyright {
     text-align: center;
     font-size: 12px;
+    margin: 0;
+    padding: 0;
 }
 
 .social-icons-footer {
@@ -328,7 +343,7 @@ footer .copyright {
 
 .social-icons-footer i {
     font-size: 150%;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 6px 8px 6px;
     color: var(--color);
 }
 

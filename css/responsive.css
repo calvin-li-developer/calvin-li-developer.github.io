@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 1251px) {
     html {
         font-size: 90%;
@@ -11,14 +10,15 @@
     .about-content img {
         padding-bottom: 5%;
     }
-    .about-content p{
+    .about-content p {
         margin-left: 0;
     }
-    .about-content,.project-odd, .project-even{
+    .about-content, .project-odd, .project-even {
         width: 70%;
         margin: 0 15%;
     }
 }
+
 @media only screen and (max-width: 1000px) {
     html {
         font-size: 85%;
@@ -26,10 +26,11 @@
     .project-odd img, .project-even img {
         display: none;
     }
-    .project-odd .project-desc, .project-even .project-desc{
+    .project-odd .project-desc, .project-even .project-desc {
         margin: 0;
     }
 }
+
 @media only screen and (max-width: 801px) {
     html {
         font-size: 80%;
@@ -39,19 +40,19 @@
         font-size: 28px;
         cursor: pointer;
     }
-    .logo-out{
+    .logo-out {
         padding: 0;
         margin: 4px 0 0 0;
-        display:block;
+        display: block;
     }
-    .logo-out img{
+    .logo-out img {
         padding: 0;
         margin: 0;
     }
-    .logo-in{
-        display:none;
+    .logo-in {
+        display: none;
     }
-    nav{
+    nav {
         background-color: #d4d4d4;
         justify-content: space-between;
         border-bottom: 1px solid black;
@@ -82,14 +83,16 @@
     .social-icons i {
         font-size: 230%;
     }
-
+    .skills-icons {
+        justify-content: space-between;
+    }
 }
 
 @media only screen and (max-width: 401px) {
     html {
         font-size: 65%;
     }
-    .about-content,.project-odd, .project-even{
+    .about-content, .project-odd, .project-even {
         width: 80%;
         margin: 0 10%;
     }
@@ -99,15 +102,17 @@
         margin-left: 2vw;
         border-bottom: 1px solid black;
     }
-
     .section-title span:last-child {
         width: 30vw;
         height: 0;
         margin-right: 2vw;
         border-bottom: 1px solid black;
     }
-    footer{
+    footer {
         margin-top: 3%;
     }
+    .skills-icons {
+        width: 80%;
+        margin: 0 10%;
+    }
 }
-
