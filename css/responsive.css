@@ -4,8 +4,8 @@
     }
     .about-content {
         flex-direction: column;
-        width: 70%;
-        margin: 0 15%;
+        width: 75vw;
+        margin: 0 12.5vw;
     }
     .about-content img {
         padding: 2vw;
@@ -15,8 +15,8 @@
         margin-left: 0;
     }
     .about-content, .project-odd, .project-even {
-        width: 70%;
-        margin: 0 15%;
+        width: 75vw;
+        margin: 0 12.5vw;
     }
 }
 
@@ -30,7 +30,7 @@
     .project-odd .project-desc, .project-even .project-desc {
         margin: 0;
     }
-    .skill-3{
+    .skill-3 {
         flex-direction: column;
         margin: 0;
     }
@@ -38,9 +38,8 @@
         margin: 0;
     }
     .skill-frame {
-        margin: 0 7vw;
+        margin: 0 8vw;
     }
-
 }
 
 @media only screen and (max-width: 801px) {
@@ -80,8 +79,6 @@
         left: 0px;
         top: 102%;
         align-items: center;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
         padding: 8px 0;
         border-bottom: 0.5px solid black;
     }
@@ -96,10 +93,9 @@
     .social-icons i {
         font-size: 230%;
     }
-    .skill-3{
+    .skill-3 {
         margin: 0;
     }
-
 }
 
 @media only screen and (max-width: 401px) {
@@ -108,8 +104,8 @@
         scroll-padding-top: 48px;
     }
     .about-content, .project-odd, .project-even {
-        width: 80%;
-        margin: 0 10%;
+        width: 80vw;
+        margin: 0 10vw;
     }
     .section-title span:first-child {
         width: 30vw;
@@ -124,11 +120,13 @@
         border-bottom: 1px solid black;
     }
     footer {
-        margin-top: 3%;
+        margin-top: 3vh;
     }
     .skills-icons {
-        width: 80%;
-        margin: 0 10%;
+        width: 80vw;
+        margin: 0 10vw;
     }
- 
+    .skill-frame {
+        margin: 0 4vw;
+    }
 }
