@@ -256,7 +256,7 @@ section {
     margin: 0 50px;
 }
 
-.skill-3 i:hover {
+.skill-frame:hover {
     color: var(--hover-color)
 }
 
