@@ -9,7 +9,9 @@
     background: var(--hover-color);
     color: var(--background-color);
 }
-
+html{
+    scroll-padding-top: 74px;
+}
 :root {
     --hover-color: rgb(100, 50, 200);
     --background-color: #d4d4d4;

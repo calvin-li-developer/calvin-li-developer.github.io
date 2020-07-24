@@ -34,6 +34,7 @@
 @media only screen and (max-width: 801px) {
     html {
         font-size: 80%;
+        scroll-padding-top: 60px;
     }
     .menu-burger {
         display: block;
@@ -91,6 +92,7 @@
 @media only screen and (max-width: 401px) {
     html {
         font-size: 65%;
+        scroll-padding-top: 48px;
     }
     .about-content, .project-odd, .project-even {
         width: 80%;
