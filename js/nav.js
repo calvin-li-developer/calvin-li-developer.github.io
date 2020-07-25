@@ -4,7 +4,7 @@ function menuClickDisplay() {
     const nav_menu = document.querySelector(".nav-menu");
     const menu_burger = document.querySelector(".menu-burger");
     for (const button of nav_menu_btns) {
-        button.addEventListener("click", function (e) {
+        button.addEventListener("click", (e) => {
             if (getComputedStyle(menu_burger, null).display === "block") {
                 nav_menu.style.display = "none";
             }
@@ -13,7 +13,7 @@ function menuClickDisplay() {
 }
 function onClickMenuBurger() {
     "use strict";
-    document.querySelector(".menu-burger").addEventListener("click", function () {
+    document.querySelector(".menu-burger").addEventListener("click", () => {
         const nav_menu = document.querySelector(".nav-menu");
         if (nav_menu.style.display === "block") {
             nav_menu.style.display = "";
@@ -22,7 +22,7 @@ function onClickMenuBurger() {
         }
     });
 }
-window.onscroll = function () {
+window.onscroll = () => {
     "use strict";
     const nav_menu_bar = document.querySelector("nav");
 
