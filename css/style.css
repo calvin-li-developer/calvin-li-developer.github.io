@@ -152,16 +152,20 @@ nav {
 }
 
 .home-center-title p {
-    color: #414141;
     padding: 0;
     margin: 0 0 20px 0;
     font-size: 190%;
 }
 
 .resume-btn p {
+    color: #414141;
     font-size: 150%;
     margin: 0;
     padding: 0;
+}
+
+.profession {
+    color: var(--hover-color);
 }
 
 .resume-btn {
