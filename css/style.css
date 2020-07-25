@@ -297,7 +297,6 @@ section {
 }
 
 .project-odd p span {
-    color: var(--hover-color);
     font-weight: bold;
 }
 
@@ -336,7 +335,6 @@ section {
 }
 
 .project-even p span {
-    color: var(--hover-color);
     font-weight: bold;
 }
 
