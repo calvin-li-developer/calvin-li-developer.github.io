@@ -52,7 +52,7 @@ nav {
 }
 
 .nav-background {
-    background-color: var(--background-color);
+    background-color: white;
     border-bottom: 1px solid black;
 }
 
