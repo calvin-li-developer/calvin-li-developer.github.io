@@ -115,7 +115,7 @@ nav {
     font-size: 140%;
 }
 
-.nav-menu ul li a:hover {
+.nav-menu ul li a p:hover {
     color: var(--hover-color);
     border-bottom: 1.5px solid var(--hover-color);
 }

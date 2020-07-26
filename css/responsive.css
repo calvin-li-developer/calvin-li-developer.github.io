@@ -92,7 +92,7 @@
         padding: 5px 0;
         width: fit-content;
     }
-    .nav-menu ul li a:hover {
+    .nav-menu ul li a p:hover {
         border-bottom: none;
     }
     .nav-menu-btn p{
