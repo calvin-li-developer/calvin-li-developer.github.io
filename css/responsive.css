@@ -73,22 +73,32 @@
         display: none;
         position: absolute;
         flex-direction: column;
-        background-color: #aaaaaa;
+        background-color: white;
         width: 100vw;
         height: max-content;
         left: 0px;
-        top: 102%;
+        top: 101.5%;
         align-items: center;
-        padding: 8px 0;
-        border-bottom: 0.5px solid black;
+        /* padding: 8px 0; */
+        /* border-bottom: 0.5px solid black; */
     }
     .nav-menu ul {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
+    .nav-menu ul li{
+        border-bottom: 1px solid black;
+        padding: 5px 0;
+        width: fit-content;
+    }
     .nav-menu ul li a:hover {
         border-bottom: none;
+    }
+    .nav-menu-btn p{
+        margin: 0;
+        width: 100vw;
+        padding: 3.5px 0;
     }
     .social-icons i {
         font-size: 230%;
