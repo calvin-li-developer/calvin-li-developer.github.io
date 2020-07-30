@@ -54,6 +54,8 @@ nav {
 .nav-background {
     background-color: white;
     border-bottom: 1px solid black;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .logo-out {
@@ -62,7 +64,7 @@ nav {
 }
 
 .logo-out img {
-    max-height: 3.5rem;
+    max-height: 3rem;
     padding: 5px 5px 0 12px;
 }
 
@@ -71,7 +73,7 @@ nav {
 }
 
 .logo-in img {
-    max-height: 3.5rem;
+    max-height: 3rem;
     padding: 5px 5px 0 12px;
 }
 
@@ -103,7 +105,7 @@ nav {
     padding: 0;
 }
 
-.nav-menu ul li {
+.nav-menu ul li p{
     margin: 0;
     padding: 0 12px 0 12px;
 }
