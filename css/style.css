@@ -116,7 +116,9 @@ nav {
     text-transform: uppercase;
     font-size: 140%;
 }
-
+.nav-menu ul li a p{
+    border-bottom: 1.5px solid transparent;
+}
 .nav-menu ul li a p:hover {
     color: var(--hover-color);
     border-bottom: 1.5px solid var(--hover-color);
