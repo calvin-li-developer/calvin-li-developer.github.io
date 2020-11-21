@@ -96,7 +96,8 @@
         margin: 0;
     }
     .nav-menu ul li a p:hover {
-        border-bottom: none;
+        border-bottom: 1.5px solid transparent;
+    }    
     }
     .nav-menu-btn p{
         margin: 0;
