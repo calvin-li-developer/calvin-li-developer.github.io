@@ -260,10 +260,7 @@ section {
     align-items: center;
     text-align: center;
     font-size: 400%;
-}
-
-.skill-3:nth-child(2) {
-    margin: 0 50px;
+    margin: 0 25px;
 }
 
 .skill-frame:hover {
@@ -290,7 +287,8 @@ section {
 
 .project-odd img {
     height: auto;
-    width: 20vw;
+    max-width: 18vw;
+    max-height: 50vh;
     min-width: 300px;
 }
 
@@ -340,7 +338,8 @@ section {
 
 .project-even img {
     height: auto;
-    width: 20vw;
+    max-width: 18vw;
+    max-height: 50vh;
     min-width: 300px;
 }
 
