@@ -1,7 +1,7 @@
 # Personal Website
 
 ## Go to
-www.calvinli.ca
+[WEBSITE](https://calvinli.ca/)
 
 ## Built with
 HTML, CSS, JavaScript
