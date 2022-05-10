@@ -1,3 +1,5 @@
+const copyright = document.getElementById("copyright").innerHTML = "© " + new Date().getFullYear() + " Calvin Li"
+
 function menuClickDisplay() {
   "use strict";
   const nav_menu_btns = document.querySelectorAll(".nav-menu-btn");
@@ -11,6 +13,7 @@ function menuClickDisplay() {
     });
   });
 }
+
 function onClickMenuBurger() {
   "use strict";
   document.querySelector(".menu-burger").addEventListener("click", () => {
@@ -22,6 +25,7 @@ function onClickMenuBurger() {
     }
   });
 }
+
 window.onscroll = () => {
   "use strict";
   const nav_menu_bar = document.querySelector("nav");
@@ -43,5 +47,6 @@ window.onscroll = () => {
     nav_menu_bar.classList.remove("nav-background");
   }
 };
+
 menuClickDisplay();
 onClickMenuBurger();
