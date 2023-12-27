@@ -1,7 +1,7 @@
 # Personal Website
 
 ## Go to
-[WEBSITE](https://calvinli.ca/)
+[WEBSITE](https://calvin-li-developer.github.io/)
 
 ## Built with
 HTML, CSS, JavaScript
